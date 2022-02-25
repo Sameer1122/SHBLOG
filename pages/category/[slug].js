@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouter } from "next/router";
 
-import { getCategories, getCategoryPost } from "../../services";
+import { getCategories, getCategoryPost } from "../../Services";
 import { PostCard, Categories, Loader } from "../../Components";
 
 const CategoryPost = ({ posts }) => {
