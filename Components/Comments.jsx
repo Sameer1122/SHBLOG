@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import moment from "moment";
 import parse from "html-react-parser";
 
-import { getComments } from "../services";
+import { getComments } from "../Services";
 
 export default Comments = ({ slug }) => {
   const [comments, setComments] = useState([]);
