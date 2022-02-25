@@ -4,7 +4,7 @@ import parse from "html-react-parser";
 
 import { getComments } from "../services";
 
-const Comments = ({ slug }) => {
+export default Comments = ({ slug }) => {
   const [comments, setComments] = useState([]);
 
   useEffect(() => {
@@ -36,5 +36,3 @@ const Comments = ({ slug }) => {
     </>
   );
 };
-
-export default Comments;
