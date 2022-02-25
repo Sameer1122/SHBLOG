@@ -8,8 +8,8 @@ const Header = () => {
     getCategories().then((result) => setCategories(result));
   }, []);
   return (
-    <div className="bg-black">
-      <div className="container mx-auto py-8 px-10 mb-8">
+    <div className="bg-[#0000008c] sticky top-0 z-[200] backdrop-blur-md">
+      <div className="container mx-auto py-4 px-10 mb-8">
         <div className="w-full inline-block">
           <div className="md:float-left block">
             <Link href="/">
